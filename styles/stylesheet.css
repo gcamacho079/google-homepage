@@ -1,9 +1,44 @@
-img {
+html {
+  -webkit-appearance: none;
+}
+  img {
   display: block;
   margin: auto;
   width: 272px;
   padding-top: 150px;
   padding-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  display: inline;
+  padding: 16px 12px;
+}
+#topnav {
+  text-align: right;
+}
+#bottomnav {
+  background-color: #ececec;
+  padding: 1px 6px;
+  position: fixed;
+  bottom:0;
+  margin: -5px;
+  width: 100%;
+  border-top: 1px solid silver;
+}
+
+.left-menu li {
+  float:left;
+}
+.right-menu li {
+  float: right;
+  margin-right: 30px;
 }
 
 a {
@@ -31,9 +66,10 @@ input:focus {
   border: 1px solid blue;
 }
 
-button {
+.sButton {
   padding: 3px 10px;
   margin: 36px 3px;
+  border-radius: 4px;
   font-family: 'Noto Sans', sans-serif;
   background-color: #ececec;
   border: none;
@@ -41,15 +77,27 @@ button {
   font-weight: bold;
   color: gray;
 }
-button:hover {
+.sButton:hover {
   box-shadow: inset 0px 0px 0px 1px gray;
   color: black;
 }
-button:focus {
+.sButton:focus {
   outline: none;
   box-shadow: inset 0px 0px 0px 1px blue;
 }
 
 .search_buttons {
   text-align: center;
+
+}
+
+.signinButton {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #558BF0;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
 }
