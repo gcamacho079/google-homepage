@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 480px) {
+  .sButton {
+    display: inline-block;
+    margin: 1em auto;
+  }
+
+  #left-menu {
+    float: left;
+  }
+  #right-menu {
+    float: right;
+  }
+
+  #bottomnav {
+    padding-bottom: 0.5em;
+  }
+
+}
