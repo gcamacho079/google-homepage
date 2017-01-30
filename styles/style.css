@@ -4,8 +4,9 @@ GENERAL
 
 .wrapper {
   width: 95%
-  margin: 0 auto;
-  padding-top: 4em;
+  margin: 0 0 2em 0 auto;
+  /*height: calc(100vh - 85px);*/
+
 }
 
 ul {
@@ -70,7 +71,7 @@ img {
   margin: 0 auto;
   width: 350px;
   max-width: 85%;
-  padding: 3em 0;
+  padding: 6em 0 2em 0;
 }
 
 .mobile-search {
@@ -111,6 +112,7 @@ input:focus {
   background-color: #ececec;
   color: gray;
   display: none;
+  margin-bottom: 3em;
   clear: both;
 }
 
@@ -136,13 +138,16 @@ BOTTOM NAV
 #bottomnav {
   background-color: #ececec;
   position: fixed;
+  display: block;
   bottom: 0;
   width: 100%;
+  height: 85px;
   border-top: 1px solid silver;
 
 }
 
 #left-menu, #right-menu {
   text-align: center;
+  padding-top: 0.5em;
   margin: 0;
 }

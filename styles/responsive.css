@@ -13,7 +13,15 @@
   }
 
   #bottomnav {
-    padding-bottom: 0.5em;
+    height: 50px;
   }
+
+  .wrapper {
+    /*min-height: calc(100vh - 50px); /*sets to 100% of the viewport height*/*/
+  }
+
+  /*@media screen and (min-width: 769px) {
+
+  }*/
 
 }
